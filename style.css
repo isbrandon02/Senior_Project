@@ -1,58 +1,93 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+font-family: 'Forum';
+  
+background-color: #DCEDFF;
 }
 
 .site-header {
-    background: #2c3e50;
+  background: #30485F; /* Soft blue background */
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.site-header h1 {
+  font-size: 66px; /* Increased font size */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+
+.site-header h2 {
+  font-size: 24px;
+  font-style: italic;
+  color: #8F91A2; /* Medium gray text color */
+}
+
+.navbar {
+  background: #505A5B; /* Dark gray background */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Box shadow */
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #8F91A2; /* Medium gray text color */
+  font-weight: bold;
+  transition: color 0.3s, font-size 0.3s; /* Smooth color and font-size transition */
+}
+
+.navbar a:hover {
+  color: #343F3E; /* Dark gray on hover */
+  font-size: 24px; /* Increased font size on hover */
+}
+
+.header-box {
+    background-color: #30485F; /* Soft blue background */
     text-align: center;
     padding: 100px 0;
     color: #fff;
 }
 
-.site-header h1 {
+.header-box h1 {
     font-size: 48px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.site-header h2 {
-    font-size: 24px;
-    font-style: italic;
-    color: #ecf0f1;
+.header-box p {
+    font-size: 18px;
+    margin-top: 20px;
 }
 
-.navbar {
-    background: #34495e;
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #94B0DA; /* Blue background for the button */
     color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.navbar ul {
-    list-style: none;
-}
-
-.navbar li {
-    display: inline;
-    margin: 0 20px;
-}
-
-.navbar a {
     text-decoration: none;
-    color: #ecf0f1;
     font-weight: bold;
-    transition: color 0.3s, font-size 0.3s;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-.navbar a:hover {
-    color: #3498db;
-    font-size: 24px;
+.cta-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
 }
